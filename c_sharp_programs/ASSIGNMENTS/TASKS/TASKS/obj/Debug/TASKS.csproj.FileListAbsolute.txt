@@ -1,0 +1,7 @@
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\TASKS\TASKS\bin\Debug\TASKS.exe.config
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\TASKS\TASKS\bin\Debug\TASKS.exe
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\TASKS\TASKS\bin\Debug\TASKS.pdb
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\TASKS\TASKS\obj\Debug\TASKS.csproj.AssemblyReference.cache
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\TASKS\TASKS\obj\Debug\TASKS.csproj.CoreCompileInputs.cache
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\TASKS\TASKS\obj\Debug\TASKS.exe
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\TASKS\TASKS\obj\Debug\TASKS.pdb
