@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TASKS
 {
-    class problem_3
+    class All_Operations
+
     {
         public static void Main()
         {
