@@ -1,0 +1,7 @@
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-4\Assigment-4\bin\Debug\Assigment-4.exe.config
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-4\Assigment-4\bin\Debug\Assigment-4.exe
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-4\Assigment-4\bin\Debug\Assigment-4.pdb
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-4\Assigment-4\obj\Debug\Assigment-4.csproj.AssemblyReference.cache
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-4\Assigment-4\obj\Debug\Assigment-4.csproj.CoreCompileInputs.cache
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-4\Assigment-4\obj\Debug\Assigment-4.exe
+C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-4\Assigment-4\obj\Debug\Assigment-4.pdb
