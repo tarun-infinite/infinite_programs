@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58993051-A654-43AD-88CE-D2B17347B75B}</ProjectGuid>
+    <ProjectGuid>{E2787969-B009-4A52-9337-152368B21E0C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assessment_2</RootNamespace>
-    <AssemblyName>Assessment-2</AssemblyName>
+    <RootNamespace>Assignment_5</RootNamespace>
+    <AssemblyName>Assignment-5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assessment_2.Handson</StartupObject>
+    <StartupObject>Assignment_5.File_Lines_Count</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Check_Negative.cs" />
-    <Compile Include="Check_Passed_Or_Not.cs" />
-    <Compile Include="Handson.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="BookShelf.cs" />
+    <Compile Include="File_Inside_Array.cs" />
+    <Compile Include="File_Lines_Count.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

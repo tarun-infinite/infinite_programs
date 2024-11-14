@@ -42,7 +42,7 @@ namespace Assessment_2
     {
         static void Main()
         {
-            Console.WriteLine("enter student type (under graduate or Graduate)");
+            Console.WriteLine("enter student type (UnderGraduate or Graduate)");
             string type = Console.ReadLine();
             Console.WriteLine("enter the name");
             string name = Console.ReadLine();
