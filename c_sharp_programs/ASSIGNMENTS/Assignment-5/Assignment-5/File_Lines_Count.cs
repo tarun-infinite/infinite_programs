@@ -11,7 +11,7 @@ namespace Assignment_5
     {
       static void Main()
             {
-            string path = @"C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-5\Assignment-5\bin\Debug";
+                string path = @"C:\dotnet_training\c_sharp_programs\ASSIGNMENTS\Assignment-5\Assignment-5\bin\Debug\Tarun_Kumar.txt";
                 Console.WriteLine(" * ** Original Path ***");
                 if (File.Exists(path))
                 {
