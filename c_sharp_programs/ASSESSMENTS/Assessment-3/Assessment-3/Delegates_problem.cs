@@ -29,9 +29,9 @@ namespace Assessment_3
 
         public static void Main()
         {
-            Console.Write("Enter value of A : ");
+            Console.Write(" value of A = ");
             int A = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter value of B : ");
+            Console.Write(" value of B = ");
             int B = Convert.ToInt32(Console.ReadLine());
 
             Delegates_Problem.Calculate Add = new Delegates_Problem.Calculate(Delegates_Problem.Sum);
@@ -39,12 +39,12 @@ namespace Assessment_3
             Delegates_Problem.Calculate Multiplication = new Delegates_Problem.Calculate(Delegates_Problem.Multiply);
 
             Console.WriteLine();
-            Console.WriteLine("*** Result of Two Values ***");
-            Console.Write("Sum of two values : ");
+            Console.WriteLine("*** Results of Arthimetic Operations ***");
+            Console.Write("Sum  : ");
             Delegates_Problem.Perform(Add, A, B);
-            Console.Write("Sub of two values : ");
+            Console.Write("Subtraction : ");
             Delegates_Problem.Perform(Sub, A, B);
-            Console.Write("Multiplication of two value is : ");
+            Console.Write("Multiplication : ");
             Delegates_Problem.Perform(Multiplication, A, B);
 
             Console.ReadKey();
