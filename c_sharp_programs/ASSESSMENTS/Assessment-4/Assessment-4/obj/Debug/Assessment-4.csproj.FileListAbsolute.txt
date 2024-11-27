@@ -1,0 +1,7 @@
+C:\dotnet_training\c_sharp_programs\ASSESSMENTS\Assessment-4\Assessment-4\bin\Debug\Assessment-4.exe.config
+C:\dotnet_training\c_sharp_programs\ASSESSMENTS\Assessment-4\Assessment-4\bin\Debug\Assessment-4.exe
+C:\dotnet_training\c_sharp_programs\ASSESSMENTS\Assessment-4\Assessment-4\bin\Debug\Assessment-4.pdb
+C:\dotnet_training\c_sharp_programs\ASSESSMENTS\Assessment-4\Assessment-4\obj\Debug\Assessment-4.csproj.AssemblyReference.cache
+C:\dotnet_training\c_sharp_programs\ASSESSMENTS\Assessment-4\Assessment-4\obj\Debug\Assessment-4.csproj.CoreCompileInputs.cache
+C:\dotnet_training\c_sharp_programs\ASSESSMENTS\Assessment-4\Assessment-4\obj\Debug\Assessment-4.exe
+C:\dotnet_training\c_sharp_programs\ASSESSMENTS\Assessment-4\Assessment-4\obj\Debug\Assessment-4.pdb
