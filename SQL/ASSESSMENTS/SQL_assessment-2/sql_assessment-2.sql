@@ -40,35 +40,36 @@ select * from Employee
 After completing above all actions, recall the deleted row without losing increment of second row.*/
 
 
-CREATE TABLE employee1 (
-    empno INT PRIMARY KEY,
+CREATE TABLE employee2 (
+    empno INT,
     ename VARCHAR(50),
     sal DECIMAL(10),
     doj DATE
 );
  
+begin transaction
 
-INSERT INTO Employee1 
+INSERT INTO Employee2
 VALUES 
 (1, 'tarun', 1200, '2020-01-15'),
 (2, 'arthi', 1400, '2021-03-10'),
 (3, 'sivaa', 1600, '2022-07-20');
-select * from employee1
+select * from employee2
  
 -- b. Update the second row salary with a 15% increment
-UPDATE Employee1
+UPDATE Employee2
 SET sal = sal * 1.15
 WHERE empno = 2;
  
 -- c. Delete the first row
-DELETE FROM Employee1
+DELETE FROM Employee2
 WHERE empno = 1;
  
 rollback
  
 commit
 
-SELECT * FROM Employee1;
+SELECT * FROM Employee2;
  
 
 
@@ -148,4 +149,5 @@ end
  
 exec updateSal;
 select * from Employee
+
 
