@@ -54,17 +54,12 @@ select*from T_CourseInfoo;
 
 
 
-create table ProductsDetails(ProductId int, ProductName varchar(30), Price Float, DiscountedPrice Float);
+create table ProductsDetails(ProductId int identity , ProductName varchar(30), Price Float, DiscountedPrice Float);
 
-create procedure sp_productdetails
-@ProductId int,
-@ProductName varchar(30),
-@Price Float,
-@DiscountedPrice Float
+create or alter procedure update_products  @productname varchar(30),@price int,@productId int output
 as
-Begin
+begin
+insert into ProductsDetails(ProductName,Price) values(@productname,@price)
+set @productId=SCOPE_IDENTITY();
+end
  
-insert into ProductsDetails(ProductId, ProductName, Price, DiscountedPrice)
-values(@ProductId, @ProductName, @Price, @DiscountedPrice);
- end
-
