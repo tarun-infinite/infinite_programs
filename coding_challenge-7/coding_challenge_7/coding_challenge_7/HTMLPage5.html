@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Click Event</title>
+    <script type="text/javascript">function createButton()
+        {
+            var button = document.createElement("button");
+            button.innerText = "Click Me!";
+
+            button.addEventListener("click", function() {
+                console.log("wroking successfully");
+                alert("wroking successfully!");
+            });
+                       document.body.appendChild(button);
+        }
+
+        window.onload = createButton;
+    </script>
+</head>
+<body>
+    <h1>Button Click Event Example</h1>
+    <p>Hello Tarun.........</p>
+</body>
+</html>
+

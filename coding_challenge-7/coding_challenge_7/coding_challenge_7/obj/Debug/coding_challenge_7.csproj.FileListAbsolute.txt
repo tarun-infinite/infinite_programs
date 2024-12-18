@@ -1,0 +1,7 @@
+C:\dotnet_training\coding_challenge-7\coding_challenge_7\coding_challenge_7\bin\Debug\coding_challenge_7.exe.config
+C:\dotnet_training\coding_challenge-7\coding_challenge_7\coding_challenge_7\bin\Debug\coding_challenge_7.exe
+C:\dotnet_training\coding_challenge-7\coding_challenge_7\coding_challenge_7\bin\Debug\coding_challenge_7.pdb
+C:\dotnet_training\coding_challenge-7\coding_challenge_7\coding_challenge_7\obj\Debug\coding_challenge_7.csproj.AssemblyReference.cache
+C:\dotnet_training\coding_challenge-7\coding_challenge_7\coding_challenge_7\obj\Debug\coding_challenge_7.csproj.CoreCompileInputs.cache
+C:\dotnet_training\coding_challenge-7\coding_challenge_7\coding_challenge_7\obj\Debug\coding_challenge_7.exe
+C:\dotnet_training\coding_challenge-7\coding_challenge_7\coding_challenge_7\obj\Debug\coding_challenge_7.pdb
