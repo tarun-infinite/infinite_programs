@@ -237,12 +237,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\CustomersInGermany.cshtml" />
-    <Content Include="Views\CustomerWithOrderId.cshtml" />
+    <Content Include="Views\Code\CustomersInGermany.cshtml" />
+    <Content Include="Views\Code\CustomerWithOrderId.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Code\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
