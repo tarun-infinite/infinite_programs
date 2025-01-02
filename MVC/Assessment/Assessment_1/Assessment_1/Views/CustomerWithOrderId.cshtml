@@ -1,0 +1,24 @@
+﻿@model Assessment_1.Models.Customer
+
+<h2>Customer Details for Order ID: 10248</h2>
+@if (Model != null)
+{
+<table border="1">
+    <tr>
+        <th>Customer ID</th>
+        <th>Company Name</th>
+        <th>Contact Name</th>
+        <th>City</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>@Model.CustomerID</td>
+        <td>@Model.CompanyName</td>
+        <td>@Model.ContactName</td>
+        <td>@Model.City</td>
+        <td>@Model.Country</td>
+    </tr>
+</table> }
+            else
+            {
+<p>No customer found for the specified Order ID.</p>}
