@@ -17,7 +17,7 @@ namespace miniproject
             int choice = Convert.ToInt32(Console.ReadLine());
             while (true)
             {
-                if (choice == 1)
+                if (choice == 1     )
                 {
                     Admin_Class.AdminMenu();
                 }
@@ -32,6 +32,11 @@ namespace miniproject
                     Console.WriteLine("EXITING THE RAILWAY RESERVATION SYSTEM");
                     break;
                     //Program.Main();
+                }
+                else
+                {
+                    Console.WriteLine("entered invalid option");
+                    Main();
                 }
             }
         }

@@ -38,29 +38,20 @@ namespace miniproject
                     //break;
                    // Program.Main(); 
                 }
+                else if(choice==5)
+                {
+                    
+                    Program.Main();
+                   // break;
+                }
                 else
                 {
-                    Program.Main();
-                    break;
+                    Console.WriteLine("enter valid option");
                 }
 
             }
         }
-        //static void ShowAllTrains()
-        //{
-        //    using (SqlConnection con = new SqlConnection(connectionString))
-        //    {
-        //        con.Open();
-        //        SqlCommand cmd = new SqlCommand("sp_ShowAllTrains", con) { CommandType = CommandType.StoredProcedure };
-        //        SqlDataReader reader = cmd.ExecuteReader();
-
-        //        Console.WriteLine("Available Trains:");
-        //        while (reader.Read())
-        //        {
-        //            Console.WriteLine($"ID: {reader["TrainID"]}, Name: {reader["TrainName"]}, Source: {reader["Source"]}, Destination: {reader["Destination"]}");
-        //        }
-        //    }
-        //}
+       
 
         static void BookTicket()
         {
@@ -158,7 +149,7 @@ namespace miniproject
                             Console.WriteLine($"{reader["TicketID"],-8} | {reader["PassengerName"],-15} | {reader["PassengerAge"],-3} | {reader["ClassType"],-7} | {reader["NumberOfSeats"],-5} | {reader["TrainNo"],-7} | {reader["TrainName"],-10} | {reader["Source"]} --> {reader["Destination"],-15} | {status}");
                         }
 
-                        reader.Close();
+                       // reader.Close();
                     }
                     catch (SqlException ex)
                     {

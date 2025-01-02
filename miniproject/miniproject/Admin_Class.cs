@@ -44,6 +44,10 @@ namespace miniproject
                     break;
 
                 }
+                else
+                {
+                    Console.WriteLine("enter valid option");
+                }
             }
         }
 
@@ -60,16 +64,19 @@ namespace miniproject
 
             Console.WriteLine("total seats in first class");
             int first_class_seats = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("total available seats  in first class");
             int first_class_available = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("total seats in second class");
             int second_class_seats = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("total available seats  in second class");
             int second_class_available = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("total seats in sleeper class");
             int sleeper_class_seats = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("total available seats  in sleeper class");
             int sleeper_class_available = Convert.ToInt32(Console.ReadLine());
 
@@ -80,17 +87,7 @@ namespace miniproject
             Console.Write("Destination: ");
             string destination = Console.ReadLine();
 
-            //Console.Write("Total Berths: ");
-            //int totalBerths = Convert.ToInt32(Console.ReadLine());
-
-            //Console.Write("First Class Cost: ");
-            //decimal firstClass = Convert.ToDecimal(Console.ReadLine());
-
-            //Console.Write("Second Class Cost: ");
-            //decimal secondClass = Convert.ToDecimal(Console.ReadLine());
-
-            //Console.Write("Sleeper class Cost: ");
-            //decimal sleeper = Convert.ToDecimal(Console.ReadLine());
+           
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -110,10 +107,7 @@ namespace miniproject
                 cmd.Parameters.AddWithValue("@Source", source);
                 cmd.Parameters.AddWithValue("@Destination", destination);
 
-                // cmd.Parameters.AddWithValue("@TotalBerths", totalBerths);
-                //cmd.Parameters.AddWithValue("@FirstClassCost", firstClass);
-                //cmd.Parameters.AddWithValue("@SecondClassCost", secondClass);
-                //cmd.Parameters.AddWithValue("@ThirdClassCost", sleeper);
+               
                 try
                 {
                     cmd.ExecuteNonQuery();
@@ -183,7 +177,7 @@ namespace miniproject
                     try
                     {
                         cmd.ExecuteNonQuery();
-                        Console.WriteLine("Train details updated successfully or message provided by the database.");
+                        Console.WriteLine("Train details updated successfully.");
                     }
                     catch (Exception ex)
                     {
@@ -201,7 +195,8 @@ namespace miniproject
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
                     con.Open();
-                    SqlCommand cmd = new SqlCommand("sp_DeleteTrain", con) { CommandType = CommandType.StoredProcedure };
+                    SqlCommand cmd = new SqlCommand("sp_DeleteTrain", con)
+                    { CommandType = CommandType.StoredProcedure };
                     cmd.Parameters.AddWithValue("@TrainNo", trainID);
                 try
                 {
