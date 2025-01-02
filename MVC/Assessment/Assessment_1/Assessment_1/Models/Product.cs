@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assessment_1
+namespace Assessment_1.Models
 {
     using System;
     using System.Collections.Generic;

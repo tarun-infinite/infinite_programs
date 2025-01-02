@@ -7,23 +7,25 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assessment_1
+namespace Assessment_1.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class CustomerDemographic
+    public partial class Category
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public CustomerDemographic()
+        public Category()
         {
-            this.Customers = new HashSet<Customer>();
+            this.Products = new HashSet<Product>();
         }
     
-        public string CustomerTypeID { get; set; }
-        public string CustomerDesc { get; set; }
+        public int CategoryID { get; set; }
+        public string CategoryName { get; set; }
+        public string Description { get; set; }
+        public byte[] Picture { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Customer> Customers { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
     }
 }
